@@ -1,0 +1,77 @@
+.nav {
+  height: 64px;
+  padding: 0 24px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.loginBtn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.menuIcon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 72px;
+  right: 24px;
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.usersSection {
+  margin: 24px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.table thead {
+  background: #f5f5f5;
+}
+
+.table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  .loginBtn {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+}
