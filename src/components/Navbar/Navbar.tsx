@@ -12,7 +12,7 @@ const Navbar = ({ onLoginClick }: Props) => {
   return (
     <>
       <nav className={styles.nav}>
-        <div className={styles.logo}>MyApp</div>
+        <div className={styles.logo}>Logo</div>
 
         <button className={styles.loginBtn} onClick={onLoginClick}>
           Log in
